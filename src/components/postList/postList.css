@@ -1,0 +1,25 @@
+.link_style {
+    text-decoration: none;
+    color: black;
+}
+
+.post_container {
+    margin-top: 1%;
+}
+
+.search_box {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 52%;
+    height: 3rem;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+.search_box_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

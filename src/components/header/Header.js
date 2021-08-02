@@ -6,11 +6,11 @@ function Header() {
         <Container>
             <Navbar bg="light">
                 <Container>
-                    <Navbar.Brand to="/">BlogPost</Navbar.Brand>
+                    <Navbar.Brand to="/Assignment1/">BlogPost</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav>
-                            <Nav.Link as={Link} to="/posts">Home</Nav.Link>
+                            <Nav.Link as={Link} to="/Assignment1/posts">Home</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -15,13 +15,13 @@ function App() {
       <Provider store={store}>
         <Container>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/Assignment1/">
               <Home />
             </Route>
-            <Route exact path="/posts">
+            <Route exact path="/Assignment1/posts">
               <PostList />
             </Route>
-            <Route path="/posts/:id">
+            <Route path="/Assignment1/posts/:id">
               <PostDetails />
             </Route>
           </Switch>

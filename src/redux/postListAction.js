@@ -23,7 +23,7 @@ export const fetchPostListError = (error) => {
 export const fetchPostList = () => {
     return (dispatch) => {
         dispatch(fetchPostListRequest())
-        axios.get("https://jsonplaceholder.typicode.com/posts")
+        axios.get("https://jsonplaceholder.typicode.com/posts/")
             .then(response => {
                 const data = response.data;
                 dispatch(fetchPostListSuccess(data))

@@ -30,7 +30,7 @@ function PostList({ postListData, fetchPostList }) {
                     }).map((val, index) => {
                         return (
                             <div key={val.id} className="post_container" >
-                                <Link to={`/${val.id}`} className="link_style" >
+                                <Link to={`/posts/${val.id}`} className="link_style" >
                                     <Card>
                                         <Card.Header ><strong>{val.title}</strong></Card.Header>
                                         <Card.Body >

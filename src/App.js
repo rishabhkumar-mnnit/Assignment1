@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/header/Header';
 import PostList from './components/postList/PostList';
 import PostDetails from './components/postDetails/PostDetails';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
         <Container>
           <Switch>
             <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/posts">
               <PostList />
             </Route>
-            <Route path="/:id">
+            <Route path="/posts/:id">
               <PostDetails />
             </Route>
           </Switch>

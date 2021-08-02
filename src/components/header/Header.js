@@ -6,7 +6,7 @@ function Header() {
         <Container>
             <Navbar bg="light">
                 <Container>
-                    <Navbar.Brand to="/posts">BlogPost</Navbar.Brand>
+                    <Navbar.Brand to="/">BlogPost</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav>
